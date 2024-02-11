@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arthur Combe Real Estate</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+  <header class="bg-black shadow">
+    <div class="container mx-auto px-4 py-6 flex items-center">
+      <div class="ml-auto">
+        <ul class="flex space-x-4">
+          <li><a href="#" class="text-blue-400 hover:text-blue-500 font-bold">About</a></li>
+          <li><a href="#" class="text-blue-400 hover:text-blue-500 font-bold">Properties</a></li>
+          <li><a href="#" class="text-blue-400 hover:text-blue-500 font-bold">Contact Arthur</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-8">
+    <section class="mb-8">
+      <div class="flex items-center justify-between mb-4">
+        <div class="text-4xl font-bold text-blue-400 italic">
+          <p>Hello, I am</p>
+          <h2>Arthur Combe</h2>
+        </div>
+      </div>
+      <div class="relative mb-8">
+        <img src="https://uploads.pl-internal.com/YmQ5ODFjMDgtMGExOC00ZDRlLWI0NTYtYmZlNjEwN2FjNTMw/favicon/2017/01/bayfront.jpg" alt="Real estate background" class="w-full h-auto object-cover rounded-lg max-h-48">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+      </div>
+      <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="p-4 bg-black rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold text-blue-400">Experience</h3>
+          <p class="mt-2 text-gray-400">With over 10 years of experience in the real estate industry, Arthur Combe has the expertise to guide you through the process of buying or selling your home.</p>
+        </div>
+        <div class="p-4 bg-black rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold text-blue-400">Personalized Service</h3>
+          <p class="mt-2 text-gray-400">We understand that every client has unique needs and preferences. Arthur Combe will work closely with you to ensure your real estate goals are met.</p>
+        </div>
+        <div class="p-4 bg-black rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold text-blue-400">Local Expertise</h3>
+          <p class="mt-2 text-gray-400">Arthur Combe has extensive knowledge of the local real estate market, giving you an edge when buying or selling your home.</p>
+        </div>
+        <div class="p-4 bg-black rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold text-blue-400">Excellent Communication</h3>
+          <p class="mt-2 text-gray-400">Arthur Combe is committed to keeping you informed every step of the way, ensuring a smooth and stress-free experience.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-4xl font-bold text-blue-400">Contact Arthur</h2>
+      </div>
+      <div class="mt-4">
+        <p class="text-lg font-bold text-blue-400 mb-4">Ready to find your dream home? Contact me today!</p>
+        <form action="#" class="mt-4">
+          <div class="flex space-x-4">
+            <input type="text" placeholder="Name" class="w-full px-4 py-2 bg-black border border-gray-700 rounded">
+            <input type="email" placeholder="Email" class="w-full px-4 py-2 bg-black border border-gray-700 rounded">
+          </div>
+          <textarea placeholder="Message" class="w-full px-4 py-2 bg-black border border-gray-700 rounded mt-4"></textarea>
+          <button type="submit" class="mt-4 px-6 py-2 text-white bg-blue-400 rounded hover:bg-blue-500">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
